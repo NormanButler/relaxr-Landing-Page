@@ -33,7 +33,7 @@ body {
 .intro {
 	box-sizing: border-box;
 	height: 700px;
-	background: url(/images/header-bg.jpg) rgb(134, 141, 157);
+	background: url("/images/header-bg.jpg") rgb(134, 141, 157);
 	background-size: cover;
 	padding: 5px 13%;
 }
