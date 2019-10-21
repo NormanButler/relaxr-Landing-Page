@@ -33,7 +33,7 @@ body {
 .intro {
 	box-sizing: border-box;
 	height: 700px;
-	background: url(/images/header-bg.jpg) no-repeat center top;
+	background: url(/images/header-bg.jpg);
 	background-size: cover;
 	padding: 5px 13%;
 }
@@ -65,7 +65,7 @@ body {
 .testimonial {
 	box-sizing: border-box;
 	height: 394px;
-	background: url(/images/testimonial-bg.jpg) no-repeat center top;
+	background: url(/images/testimonial-bg.jpg);
 	background-size: cover;
 	text-align: center;
 	padding: 0;
