@@ -1,0 +1,198 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Norman Butler
+Developer @GA in London
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	box-sizing: border-box;
+	height: 700px;
+	background: url(/images/header-bg.jpg) no-repeat center top rgb(134, 141, 157);
+	background-size: cover;
+	padding: 5px 13%;
+}
+
+/***************************************
+/* Get It Now Button Styling
+/***************************************/
+
+.get-it-now {
+	font-family: 'Open Sans' sans-serif;
+	background-color: #f9e42e;
+	font-weight: 800;
+	font-size: 30px;
+	color: #606161;
+	display: block;
+	border-radius: 5px;
+	margin: 15% auto;
+	padding: 10px 50px;
+	border: none;
+}
+
+.benefits {
+	box-sizing: border-box;
+	background-color: #f0efef;
+	height: 700px;
+	padding: 100px 13%;
+}
+
+.testimonial {
+	box-sizing: border-box;
+	height: 394px;
+	background: url(/images/testimonial-bg.jpg) no-repeat center top rgb(134, 141, 157);
+	background-size: cover;
+	text-align: center;
+	padding: 0;
+}
+
+/****************************************
+/* Styling the Header items
+/****************************************/
+
+.intro h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: left;
+	font-weight: 800;
+	font-size: 40px;
+	margin: 0;
+}
+
+.intro h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10%;
+}
+
+/****************************************
+/* BENEFITS STYLING
+/****************************************/
+
+.benefits h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.benefits p {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	font-size: 30px;
+	font-weight: 300;
+	width: 70%;
+}
+
+.benefits ul {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 50px;
+	width: 55%;
+	position: relative;
+	left: 10%;
+}
+
+/***************************************
+/* CUSTOMER TESTIMONIAL
+/***************************************/
+
+.testimonial p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	color: white;
+	width: 37%;
+	font-weight: 300;
+	padding-top: 5%;
+	margin: 0 auto;
+}
+
+.testimonial p:nth-of-type(2) {
+	font-style: normal;
+	font-weight: 600;
+	padding: 10px;
+}
+
+div {
+	background-color: #f9e42e;
+	padding: 30px;
+}
+
+.sign-up {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #033048;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 50px;
+	display: block;
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 25px;
+	border: none;
+}
+
+/****************************************
+/* SOCIAL MEDIA LINKS & INFO
+/****************************************/
+
+.social-media {
+	box-sizing: border-box;
+	display: block;
+	background-color: #121212;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.social-media h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+}
+
+.social-media nav a {
+	display: inline-block;
+	padding: 20px;
+}
+
+/****************************************
+/* COPYRIGHT SCRIPT
+/****************************************/
+
+.social-media p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 600;
+}
