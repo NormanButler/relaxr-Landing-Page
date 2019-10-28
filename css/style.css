@@ -20,179 +20,265 @@ Developer @GA in London
 /*******************************************/
 
 body {
+	font-size: 26px;
+	background-color: #f0efef;
 	color: #000;
-	line-height: 1.5;
-	/*font-family: Helvetica, Arial, sans-serif;*/
+	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	width: 1024px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.logo {
+	font-size: 48px;
+	font-weight: 800;
+	color: #fff;
+}
+
 .intro {
-	box-sizing: border-box;
-	height: 700px;
-	background: url("../images/header-bg.jpg") rgb(134, 141, 157);
+	background: url("../images/header-bg.jpg") no-repeat top center #131e27;
 	background-size: cover;
-	padding: 5px 13%;
-}
-
-/***************************************
-/* Get It Now Button Styling
-/***************************************/
-
-.get-it-now {
-	font-family: 'Open Sans' sans-serif;
-	background-color: #f9e42e;
-	font-weight: 800;
-	font-size: 30px;
-	color: #606161;
-	display: block;
-	border-radius: 5px;
-	margin: 15% auto;
-	padding: 10px 50px;
-	border: none;
-}
-
-.benefits {
-	box-sizing: border-box;
-	background-color: #f0efef;
-	height: 700px;
-	padding: 100px 13%;
-}
-
-.testimonial {
-	box-sizing: border-box;
-	height: 394px;
-	background: url("../images/testimonial-bg.jpg") rgb(134, 141, 157);
-	background-size: cover;
-	text-align: center;
-	padding: 0;
-}
-
-/****************************************
-/* Styling the Header items
-/****************************************/
-
-.intro h1 {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	text-align: left;
-	font-weight: 800;
-	font-size: 40px;
-	margin: 0;
+	padding: 50px 0 300px;
 }
 
 .intro h2 {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	font-size: 40px;
+	font-size: 48px;
 	text-align: center;
+	color: #fff;
+	margin: 200px 0 50px;
 	font-weight: 600;
-	margin: 10%;
 }
 
-/****************************************
-/* BENEFITS STYLING
-/****************************************/
+.sign-up {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 280px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
 
-.benefits h2 {
-	font-family: 'Open Sans', sans-serif;
+.sign-up-yellow {
+	background: #f9e42e;
+	color: #033048;
+}
+
+.sign-up-blue {
+	background: #033048;
+	color: #fff;
+	font-size: 24px;
+}
+
+.sign-up-now {
+	background: #f9e42e;
+	padding: 30px;
+	text-align: center
+}
+
+h3 {
+	color: #033048;
 	font-size: 40px;
 	font-weight: 600;
-	margin: 0;
+	margin-bottom: 40px;
 }
 
-.benefits p {
-	font-family: 'Open Sans', sans-serif;
-	display: block;
-	font-size: 30px;
-	font-weight: 300;
-	width: 70%;
+.benefits {
+	padding: 100px 0 80px;
+}
+
+.benefits p, .benefits ul {
+	width: 600px;
 }
 
 .benefits ul {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	font-weight: 300;
-	margin-top: 50px;
-	width: 55%;
-	position: relative;
-	left: 10%;
+	list-style: disc;
+	margin: 30px 0 0 80px;
 }
 
 /***************************************
 /* CUSTOMER TESTIMONIAL
 /***************************************/
 
-.testimonial p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	font-style: italic;
-	color: white;
-	width: 37%;
+.testimonial {
+	background: url("../images/testimonial-bg.jpg") rgb(134, 141, 157);
+	background-size: cover;
+	padding: 70px 0;
+	color: #fff;
+}
+
+blockquote {
+	font-size: 36px;
 	font-weight: 300;
-	padding-top: 5%;
+	font-style: italic;
+	text-align: center;
+	width: 580px;
 	margin: 0 auto;
 }
 
-.testimonial p:nth-of-type(2) {
-	font-style: normal;
+blockquote span {
 	font-weight: 600;
-	padding: 10px;
-}
-
-div {
-	background-color: #f9e42e;
-	padding: 30px;
-}
-
-.sign-up {
-	font-family: 'Open Sans', sans-serif;
-	background-color: #033048;
-	color: white;
-	border-radius: 5px;
-	border: none;
-	padding: 10px 50px;
 	display: block;
-	margin: 0 auto;
-	font-weight: 800;
-	font-size: 25px;
-	border: none;
+	font-style: normal;
 }
 
 /****************************************
 /* SOCIAL MEDIA LINKS & INFO
 /****************************************/
 
-.social-media {
-	box-sizing: border-box;
-	display: block;
-	background-color: #121212;
+footer {
+	background: #121212;
+	padding: 65px 0 45px;
 	text-align: center;
-	padding-bottom: 5px;
 }
 
-.social-media h2 {
-	font-family: 'Open Sans', sans-serif;
+footer .logo {
 	color: #f9e42e;
-	font-weight: 800;
-	font-size: 40px;
-	text-align: center;
+	margin-bottom: 68px;
 }
 
-.social-media nav a {
+footer ul li {
 	display: inline-block;
-	padding: 20px;
+	list-style: none;
+	margin: 0 26px 75px;
 }
 
-/****************************************
-/* COPYRIGHT SCRIPT
-/****************************************/
-
-.social-media p {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
+footer p {
+	font-size: 18px;
+	color: #fff;
 	font-weight: 600;
+}
+
+.logo-container {
+	display: flex;
+}
+
+.logo-links {
+	display: flex;
+	background: #033048;
+}
+
+.logo-links li {
+	display: inline-block;
+	padding: 30px;
+}
+
+.logo-links a {
+	color: #f9e42e;
+}
+
+.logo-links ul {
+	text-align: right;
+}
+
+/* .container .logo-links a {
+color: #f9e42e;
+} */
+
+.faq-font {
+	text-transform: uppercase;
+}
+
+.blog-container {
+	height: 1980px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 1024px;
+	padding: 20px 0 80px 0;
+}
+
+.blog-post1 {
+	display: flex;
+	flex-direction: column;
+	max-width: 66%;
+	border-bottom: 1px solid #033048;
+}
+
+.blog-post2 {
+	display: flex;
+	flex-direction: column;
+	max-width: 66%;
+	flex-grow: 1;
+	border-bottom: 1px solid #033048;
+}
+
+.blog-post1 p::first-letter, .blog-post2 p::first-letter {
+	color: #606161;
+	font-weight: 600;
+	font-size: 80px;
+	padding-right: 8px;
+	float: left;
+	line-height: 1.1;
+}
+
+.blog-post1 h3, .blog-post2 h3 {
+	margin: 20px 0;
+}
+
+.blog-post1 a, .blog-post2 a {
+	text-align: right;
+	padding: 40px 20px;
+}
+
+.categories {
+	display: flex;
+	font-weight: 300;
+	flex-direction: column;
+	max-width: 30%;
+}
+
+.categories ul {
+	padding-bottom: 20px;
+}
+
+.categories h3, .about h3 {
+	font-weight: 800;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	max-width: 30%;
+	padding-bottom: 40px;
+}
+
+.advert {
+	display: flex;
+	max-width: 30%;
+}
+
+.about p, .advert p {
+	font-weight: 300;
+}
+
+.advert img {
+	flex-grow: 1;
+}
+
+.categories li a:hover {
+	color: red;
 }
