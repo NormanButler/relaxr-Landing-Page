@@ -193,9 +193,13 @@ footer p {
 	text-align: right;
 }
 
-/* .container .logo-links a {
-color: #f9e42e;
-} */
+/**************************************************
+/* Add hover effect to tab links in Header List
+/*************************************************/
+
+.logo-links li a:hover {
+	color: white;
+}
 
 .faq-font {
 	text-transform: uppercase;
@@ -278,6 +282,10 @@ color: #f9e42e;
 .advert img {
 	flex-grow: 1;
 }
+
+/***************************************************
+/** Add hover effect to tab links in Categories List
+/**************************************************/
 
 .categories li a:hover {
 	color: red;
