@@ -40,6 +40,23 @@ a {
 	text-decoration: none;
 }
 
+.blog-header {
+	display: flex;
+	background-color: #033048;
+	padding: 20px 0 30px 0;
+}
+
+.blog-header li {
+	display: inline-block;
+	font-weight: 600;
+}
+
+.blog-header nav {
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+}
+
 .container {
 	max-width: 90%;
 	margin: 0 auto;
@@ -171,34 +188,17 @@ footer p {
 	font-weight: 600;
 }
 
-.logo-container {
-	display: flex;
-}
-
-.logo-links {
-	display: flex;
-	background: #033048;
-}
-
-.logo-links li {
-	display: inline-block;
-	padding: 30px;
-}
-
-.logo-links a {
-	color: #f9e42e;
-}
-
-.logo-links ul {
-	text-align: right;
-}
-
 /**************************************************
 /* Add hover effect to tab links in Header List
 /*************************************************/
 
-.logo-links li a:hover {
+.blog-header li a:hover {
 	color: white;
+}
+
+.blog-header a {
+	color: #f9e42e;
+	padding: 25px;
 }
 
 .faq-font {
@@ -239,6 +239,11 @@ footer p {
 	line-height: 1.1;
 }
 
+.blog-post1 p, .blog-post2 p {
+	color: #606161;
+	padding-top: 20px;
+}
+
 .blog-post1 h3, .blog-post2 h3 {
 	margin: 20px 0;
 }
@@ -253,6 +258,10 @@ footer p {
 	font-weight: 300;
 	flex-direction: column;
 	max-width: 30%;
+}
+
+.categories a {
+	color: #033048;
 }
 
 .categories ul {
@@ -270,13 +279,15 @@ footer p {
 	padding-bottom: 40px;
 }
 
+.about p {
+	font-weight: 300;
+	color: #033048;
+	
+}
+
 .advert {
 	display: flex;
 	max-width: 30%;
-}
-
-.about p, .advert p {
-	font-weight: 300;
 }
 
 .advert img {
@@ -288,5 +299,6 @@ footer p {
 /**************************************************/
 
 .categories li a:hover {
-	color: red;
+	color: #033048;
+	font-weight: 600;
 }
